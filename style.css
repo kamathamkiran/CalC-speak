@@ -1,0 +1,51 @@
+body{
+    background-image: url(math.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.calculator {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 460px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+  }
+  
+  .display {
+    height: 100px;
+    padding: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .display input {
+    width: 100%;
+    border: 50px;
+    font-size: 70px;
+    text-align: right;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    height: 70px;
+    background-color: gray;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: gainsboro;
+  }
+  
+  button:active {
+    background-color: gainsboro;
+    transform: translateY(2px);
+  }
