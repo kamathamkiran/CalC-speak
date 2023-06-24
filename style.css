@@ -1,51 +1,49 @@
 body{
-    background-image: url(math.avif);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  box-sizing: border-box;
 }
-.calculator {
-    margin-top: 200px;
-    margin-bottom: 100px;
-    margin-left: 460px;
-    width: 600px;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 5px black;
-  }
-  
-  .display {
-    height: 100px;
-    padding: 5px;
-    background-color: #f0f0f0;
-  }
-  
-  .display input {
-    width: 100%;
-    border: 50px;
-    font-size: 70px;
-    text-align: right;
-  }
-  
-  .keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
-  button {
-    height: 70px;
-    background-color: gray;
-    color: white;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: gainsboro;
-  }
-  
-  button:active {
-    background-color: gainsboro;
-    transform: translateY(2px);
-  }
+.container{
+  width: auto;
+  height:auto;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: rgb(155, 229, 229);
+  box-shadow: 10px 10px 10px 10px rgb(172, 171, 171);
+}
+.display #screen
+{
+  width: 94%;
+  height: 70px;
+  font-size:35px;
+  text-align: right;
+  border-radius: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+  box-shadow: inset 5px 5px 1px 1px rgb(240, 237, 237);
+}
+.btns{
+  display:flex;
+  width: 100%;
+  margin-top: 1.7em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row .btn{
+  width: 77px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+}
+.btn:hover{
+  background-color:burlywood;
+}
