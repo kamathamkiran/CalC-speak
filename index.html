@@ -5,27 +5,57 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="calculator">
+    <div class="container">
       <div class="display">
-        <input type="text" id="result" disabled>
+        <input id="screen" type="text" placeholder="0">
       </div>
-      <div class="keys">
-        <button onclick="insert('+')">+</button>
-        <button onclick="insert('-')">-</button>
-        <button onclick="insert('*')">*</button>
-        <button onclick="insert('/')">/</button>
-        <button onclick="insert('7')">7</button>
-        <button onclick="insert('8')">8</button>
-        <button onclick="insert('9')">9</button>
-        <button onclick="insert('4')">4</button>
-        <button onclick="insert('5')">5</button>
-        <button onclick="insert('6')">6</button>
-        <button onclick="insert('1')">1</button>
-        <button onclick="insert('2')">2</button>
-        <button onclick="insert('3')">3</button>
-        <button onclick="insert('0')">0</button>
-        <button onclick="calculate()">=</button>
-        <button onclick="clearAll()">C</button>
+
+      <div class="btns">
+        <div class="row">
+          <button class="btn" onclick="back()" style="background-color:pink;">CE</button>
+          <button class="btn" onclick="factorial()">x!</button>
+          <button class="btn" onclick="log()">log</button>
+          <button class="btn" onclick="sqrt()">√</button>
+          <button class="btn" onclick="insert('%')">%</button>
+          <button class="btn" onclick="clearAll()" style="background-color: rgb(98, 215, 98);" >AC</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" onclick="asin()">asin</button>
+          <button class="btn" onclick="sin()">sin</button>
+          <button class="btn" onclick="insert('7')">7</button>
+          <button class="btn" onclick="insert('8')">8</button>
+          <button class="btn" onclick="insert('9')">9</button>
+          <button class="btn" onclick="insert('/')">÷</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" onclick="acos()">acos</button>
+          <button class="btn" onclick="cos()">cos</button>
+          <button class="btn" onclick="insert('4')">4</button>
+          <button class="btn" onclick="insert('5')">5</button>
+          <button class="btn" onclick="insert('6')">6</button>
+          <button class="btn" onclick="insert('*')">x</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" onclick="atan()">atan</button>
+          <button class="btn" onclick="tan()">tan</button>
+          <button class="btn" onclick="insert('1')">1</button>
+          <button class="btn" onclick="insert('2')">2</button>
+          <button class="btn" onclick="insert('3')">3</button>
+          <button class="btn" onclick="insert('-')">-</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" onclick="insert('2.71828182846')">e</button>
+          <button class="btn" onclick="insert('3.14159265359')">𝝅</button>
+          <button class="btn" onclick="insert('0')">0</button>
+          <button class="btn" onclick="insert('.')">.</button>
+          <button class="btn" onclick="calculate()" style="background-color: rgb(86, 118, 214);" >=</button>
+          <button class="btn" onclick="insert('+')">+</button>
+        </div>
+
       </div>
     </div>
 
