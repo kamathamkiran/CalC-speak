@@ -41,6 +41,7 @@ The ClaC-speak project would like to acknowledge the following resources and lib
 * Make sure to run this code in a browser environment that supports the SpeechSynthesis API.
 
 #Contact:
+
 For any questions or inquiries, please reach out to the ClaC-speak team at kamathamkiran2004@gmail.com
 
 We hope you enjoy using ClaC-speak, and we look forward to your contributions and feedback!
