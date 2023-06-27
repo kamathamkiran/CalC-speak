@@ -31,37 +31,61 @@ function sin()
 {
   playSound("sine");
   screen.value = Math.sin(eval(screen.value));
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function cos()
 {
   playSound("cos");
   screen.value = Math.cos(eval(screen.value));
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function tan()
 {
   playSound("tan");
   screen.value = Math.tan(eval(screen.value));
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function asin()
 {
   playSound("sine inverse");
   screen.value = Math.asin(eval(screen.value));
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function acos()
 {
   playSound("cos inverse");
   screen.value = Math.acos(eval(screen.value));
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function atan()
 {
   playSound("tan inverse");
   screen.value = Math.atan(eval(screen.value));
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function power()
 {
@@ -99,7 +123,11 @@ function back()
 function calculate()
 {
   screen.value = eval(screen.value);
-  playSound("answer is" + screen.value);
+  if(screen.value < 0)
+  {
+    playSound("answer is minus" + screen.value);
+  }
+  else playSound("answer is" + screen.value);
 }
 function clearAll()
 {
