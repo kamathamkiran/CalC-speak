@@ -12,7 +12,7 @@ With ClaC-speak, you not only get precise results for your calculations but also
 #Getting Started:
 
 To use ClaC-speak, simply follow these steps:
-1. Clone the repository:  git clone https://github.com/kamathamkiran/ClaC-speak.git
+1. Clone the repository:  git clone https://kamathamkiran.github.io/Voice-Calculator/
 2. Open the project in your preferred code editor.
 3. Launch the calculator application.
 4. Start performing mathematical calculations using the provided buttons.
